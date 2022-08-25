@@ -1,0 +1,163 @@
+body {
+    background: rgb(213,135,131);
+    background: linear-gradient(145deg, rgba(213,135,131,1) 13%, rgba(142,108,194,1) 34%, rgba(231,103,141,1) 51%, rgba(59,137,160,1) 73%, rgba(127,146,177,1) 90%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.navbar-container {
+  margin-top: 25px;
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+.login-title {
+  text-align: center;
+  color: #fff;
+  font-weight: 200;
+}
+
+.container-principal {
+  background: #fff;
+  width: 349px;
+  border-radius: 13px;
+}
+
+.login-form {
+  padding: 15px;
+}
+
+.title-join {
+  text-align: center;
+  padding: 13px;
+  letter-spacing: 1px;
+}
+
+.form-control {
+  color:unset;
+ border: #fff;
+ border-bottom: 1px solid #e5e5e5;
+ border-bottom-left-radius: 1px;
+ border-bottom-right-radius: 1px;
+}
+input.form-control.clearText {
+  color: #d3317a
+  
+}
+.form-control:focus-visible {
+  color: unset; 
+  background-color: #fff;
+  border-color: unset;
+  outline: 0;
+  box-shadow: unset;
+}
+img.cerrar-imagen {
+  height: 11px;
+}
+
+.input-group-text {
+  border: 1px;
+  border-bottom: none;
+  background-color: #fff;
+  border-radius: 0;
+
+}
+.input-group #inputPassword {
+  color:#d3317a;
+
+}
+
+.mb-3 {
+  color:#d3317a;
+
+  margin-bottom: 1rem!important;
+}
+.form-check-input:checked {
+  background-color: #d3317a;
+  border-color: #d3317a;
+}
+
+.Terms-text {
+  color: #d3317a;
+  font-weight: 700;
+}
+
+label.form-check-label {
+  font-size: 14px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.button-create {
+  background: rgb(213, 86, 112);
+  background: linear-gradient(
+    180deg,
+    rgba(213, 86, 112, 1) 23%,
+    rgba(176, 84, 149, 1) 90%
+  );
+  border: none;
+  padding: 15px 64px;
+  border-radius: 26px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 34px;
+}
+
+.button-login {
+  padding: 15px 119px;
+  border-radius: 26px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.createAccount-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+span#basic-addon1 {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+button.btn.btn-Account {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.input-group.mb-3.btn-container {
+    justify-content: center;
+}
